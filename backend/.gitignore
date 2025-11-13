@@ -1,0 +1,19 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Environment files with sensitive data
+appsettings.Local.json
+appsettings.*.Local.json
+.env
+.env.local
+.env.*.local
+
+# User-specific files
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings

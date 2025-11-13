@@ -1,0 +1,14 @@
+# Example environment configuration
+# Copy this file to appsettings.Local.json and update with your actual credentials
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=YOUR_HOST;Database=YOUR_DATABASE;Username=YOUR_USERNAME;Password=YOUR_PASSWORD"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft.AspNetCore": "Information"
+    }
+  }
+}

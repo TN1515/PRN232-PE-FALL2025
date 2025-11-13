@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+.DS_Store
+*.log
+
+# Build files
+build/
+.cache/
+
+# Editor directories
+.vscode/
+.idea/

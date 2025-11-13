@@ -1,0 +1,17 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+*.nupkg
+*.snupkg
+__pycache__/
+appsettings.Development.json
+appsettings.Local.json

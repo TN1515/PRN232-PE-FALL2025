@@ -18,11 +18,10 @@ const getApiUrl = () => {
 
 export const API_URL = getApiUrl();
 
-// Log current configuration (only in development)
-if (import.meta.env.DEV) {
-  console.log('🌐 API Configuration:', {
-    mode: import.meta.env.MODE,
-    apiUrl: API_URL,
-    isProduction: import.meta.env.PROD,
-  });
-}
+// Log current configuration
+console.log('🌐 API Configuration:', {
+  mode: import.meta.env.MODE,
+  apiUrl: API_URL,
+  isProduction: import.meta.env.PROD,
+  envVar: import.meta.env.VITE_API_URL,
+});

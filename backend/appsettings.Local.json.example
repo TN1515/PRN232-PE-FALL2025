@@ -3,7 +3,7 @@
 
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Host=YOUR_HOST;Database=YOUR_DATABASE;Username=YOUR_USERNAME;Password=YOUR_PASSWORD"
+    "DefaultConnection": "Host=YOUR_HOST;Database=YOUR_DATABASE;Username=YOUR_USERNAME;Password=YOUR_PASSWORD;SSL Mode=Require;Trust Server Certificate=true"
   },
   "Logging": {
     "LogLevel": {

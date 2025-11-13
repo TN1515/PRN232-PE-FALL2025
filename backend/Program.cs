@@ -49,11 +49,9 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Enable Swagger in all environments for API documentation
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // Global Error Handling Middleware
 app.UseMiddleware<ErrorHandlingMiddleware>();
